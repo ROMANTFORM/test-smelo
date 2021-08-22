@@ -1,0 +1,230 @@
+@font-face {
+  font-family: jura-bold;
+  src: url(../fonts/Jura-Bold.ttf);
+}
+@font-face {
+  font-family: jura-medium;
+  src: url(../fonts/Jura-Medium.ttf);
+}
+@font-face {
+  font-family: jura-regular;
+  src: url(../fonts/Jura-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #bab9b9;
+}
+.container-section {
+  position: relative;
+  padding: 1px;
+}
+.logo-img {
+  position: absolute;
+  top: 61px;
+  left: 23px;
+}
+.title-holder {
+  height: 36px;
+  margin-top: 178px;
+  margin-left: 15px;
+  margin-bottom: 11px;
+}
+.title-holder-white {
+  background-image: url(../images/title-number/01white.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.title-holder1 {
+  background-image: url(../images/title-number/01.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.title-holder2-white {
+  background-image: url(../images/title-number/02white.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.title-holder2 {
+  background-image: url(../images/title-number/02.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.title-holder3-white {
+  background-image: url(../images/title-number/03white.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.title-holder3 {
+  background-image: url(../images/title-number/03.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.title-holder4-white {
+  background-image: url(../images/title-number/04white.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.title-holder4 {
+  background-image: url(../images/title-number/04.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.section-title {
+  font-family: jura-bold;
+  text-transform: uppercase;
+  margin-left: 60px;
+}
+.title1,
+.title2,
+.title3,
+.title4 {
+  color: #000000;
+}
+.text-holder {
+  width: 184px;
+  height: 142px;
+  margin-left: 77px;
+  margin-right: 0;
+  margin-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+.text-holder--active {
+  width: 184px;
+  height: 142px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+.section-text {
+  width: 184px;
+  font-size: 11px;
+  color: #bab9b9;
+  margin-bottom: 23px;
+}
+
+.section-01,
+.section-02,
+.section-03,
+.section-04 {
+  height: 722px;
+  border: 1px solid #bab9b9;
+  background-color: #fff;
+}
+
+.controler-holder {
+  width: 184px;
+  margin-left: 77px;
+  margin-bottom: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-link {
+  font-family: jura-bold;
+  font-weight: 900;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.section-btn {
+  position: relative;
+
+  width: 47px;
+  height: 47px;
+  background-color: #bab9b9;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.arrow1 {
+  position: absolute;
+  width: 22.52px;
+  height: 0px;
+  left: 12px;
+  top: 22px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  transform: rotate(45deg);
+}
+.arrow2 {
+  position: absolute;
+  width: 13.42px;
+  height: 0px;
+  left: 26px;
+  top: 24px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+}
+.arrow3 {
+  position: absolute;
+  width: 13.42px;
+  height: 0px;
+  left: 19px;
+  top: 31px;
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+.magic-bascket {
+  position: relative;
+  width: 25px;
+  height: 29px;
+  margin-left: 30px;
+  margin-bottom: 61px;
+}
+.vector1 {
+  position: absolute;
+  width: 21px;
+  height: 16px;
+  background-image: url(../images/icons/Vector.png);
+  bottom: 0;
+  left: 0;
+}
+.vector2 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-image: url(../images/icons/Vector1.png);
+  top: 0;
+  right: 0;
+}
+.vector3 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-image: url(../images/icons/Vector2.png);
+  left: 2px;
+  top: 3px;
+}
+.vector4 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-image: url(../images/icons/Vector2.png);
+  left: 6px;
+  top: 7px;
+}
+.vector5 {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-image: url(../images/icons/Vector2.png);
+  top: 4px;
+  right: 10px;
+}
+
+.animated {
+  transition-property: background-color;
+  transition-duration: 1s;
+}
